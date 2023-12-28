@@ -1,0 +1,32 @@
+{
+	"name": "webpack-react-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"scripts": {
+		"test": "npm run test:unit",
+		"build": "webpack --config scripts/build.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Verthon/webpack-react-boilerplate.git"
+	},
+	"author": "Verthon",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Verthon/webpack-react-boilerplate/issues"
+	},
+	"engines": {
+		"node": "20"
+	},
+	"homepage": "https://github.com/Verthon/webpack-react-boilerplate#readme",
+	"devDependencies": {
+		"@types/node": "20.10.5",
+		"@types/webpack": "5.28.5",
+		"ts-loader": "^9.5.1",
+		"ts-node": "10.9.2",
+		"typescript": "5.3.3",
+		"webpack": "5.89.0",
+		"webpack-cli": "5.1.4"
+	}
+}

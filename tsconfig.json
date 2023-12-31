@@ -21,6 +21,7 @@
 		"noEmit": true,
 		/* If your code runs in the DOM: */
 		"lib": ["es2022", "dom", "dom.iterable"],
+		"jsx": "react-jsx",
 	},
 	/* Needed for Webpack: https://webpack.js.org/configuration/configuration-languages/#typescript */
   "ts-node": {

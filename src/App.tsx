@@ -1,3 +1,9 @@
+import "./App.css";
+
 export const App = () => {
-	return <p>Hello World</p>;
+	return (
+		<div className="container">
+			<p>Hello World</p>
+		</div>
+	);
 };

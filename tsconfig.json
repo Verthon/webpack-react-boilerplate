@@ -26,7 +26,7 @@
 	/* Needed for Webpack: https://webpack.js.org/configuration/configuration-languages/#typescript */
   "ts-node": {
     "compilerOptions": {
-      "module": "CommonJS"
+      "module": "CommonJS",
     }
   },
 }

@@ -1,0 +1,27 @@
+name: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Use Node.js with Version set in .nvmrc
+        uses: actions/checkout@v5
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies
+        run: time npm ci
+
+      - name: Run build
+        run: time npm run build
+
+      - name: Run unit tests
+        run: time npm run test:unit

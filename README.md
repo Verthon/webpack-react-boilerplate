@@ -4,7 +4,7 @@ Minimal React-Webpack SPA boilerplate
 
 ## Setup
 
-For this project [Node 20](https://nodejs.org/en) is recommended as well as [nvm](https://github.com/nvm-sh/nvm)
+For this project [Node 22](https://nodejs.org/en) is recommended as well as [nvm](https://github.com/nvm-sh/nvm)
 * clone repo or click `use this template` on Github
 
 ## Available commands:

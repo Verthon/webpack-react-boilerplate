@@ -21,7 +21,7 @@
 		"url": "https://github.com/Verthon/webpack-react-boilerplate/issues"
 	},
 	"engines": {
-		"node": "20"
+		"node": "22"
 	},
 	"homepage": "https://github.com/Verthon/webpack-react-boilerplate#readme",
 	"devDependencies": {
